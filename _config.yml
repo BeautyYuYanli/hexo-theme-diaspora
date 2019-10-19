@@ -1,28 +1,32 @@
 # 头部菜单，title: link
 menu:
-  Whoami: /whoami
-  Github: https://github.com/Fechin
-  Twitter: https://twitter.com/FechinLi
+  关于我: /aboutme
+  Github: https://github.com/BeautyYuYanli
+  Twitter: https://twitter.com/gpRDv2nEWyWAZug
+  时间线: /archives
+  标签云: /tags
+  # RSS: /atom.xml
+  留言板: /messageboard
 
 # 是否显示目录
 TOC: false
 
 # 是否自动播放音乐
-autoplay: false
+autoplay: true
 
 # 默认音乐
 mp3: 
-  - http://link.hhtjim.com/163/5146554.mp3
-  - http://link.hhtjim.com/qq/001faIUs4M2zna.mp3
+  - https://link.hhtjim.com/163/520991376.mp3
+  - https://link.hhtjim.com/163/35283104.mp3
 
 # 首页封面图, 为空时取文章的cover作为封面
-welcome_cover: # /img/welcome-cover.jpg
+welcome_cover: https://pics1.beautyyuyanli.ml/IMG_20190427_095454_1.jpg
 
 # 默认文章封面图
-cover: /img/cover.jpg
+cover: https://pics1.beautyyuyanli.ml/pRyXzd.jpg
 
 # 是否使用mathjax
-mathjax: false
+mathjax: true
 
 # 是否关闭默认滚动条
 scrollbar: true
@@ -30,30 +34,28 @@ scrollbar: true
 # Gitalk 评论插件（https://github.com/gitalk/gitalk）
 gitalk:
     # 是否自动展开评论框
-    autoExpand: false
+    autoExpand: true
     # 应用编号
-    clientID: ''
+    clientID: '4d67cc9a3d1572001273'
     # 应用秘钥
-    clientSecret: ''
+    clientSecret: '97c3f87fc4f3adaae65901cba28a713561aa0ba8'
     # issue仓库名
-    repo: ''
+    repo: 'blog-gitalk'
     # Github名
-    owner: ''
+    owner: 'BeautyYuYanli'
     # Github名
-    admin: ['']
-    # Ensure uniqueness and length less than 50
-    id: location.pathname
+    admin: ['BeautyYuYanli']
     # Facebook-like distraction free mode
-    distractionFreeMode: false
+    distractionFreeMode: true
 
 # 网站关键字
-keywords: Fechin
+keywords: Beautyyu
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
-google_analytics: 
+google_analytics: 3AetX5LXwf2IBfoz0VXAG3QN26BJfatkPSUCtBEFdPY
 
 # 网站ico
-favicon: /img/favicon.png
+favicon: https://pics1.beautyyuyanli.ml/FtE7sf.png
 
 # rss文件
 rss: atom.xml
